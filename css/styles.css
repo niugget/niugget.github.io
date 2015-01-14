@@ -1,0 +1,17 @@
+/*
+CSS for the placeholder for Angela Niu's site
+*/
+
+body{
+background-color: #4BAB90;
+
+} 
+
+.txt1{
+	color:white;
+	font-family: Lato;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 200px;
+}
+
