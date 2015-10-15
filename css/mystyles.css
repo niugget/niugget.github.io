@@ -46,7 +46,7 @@ html[xmlns] .clearfix {
 
 .side-nav{
 	display:inline-block;
-	background: #314F49;
+	background: #FFFFFF;
 	position:relative;
 	overflow: hidden;
 	width: 45%;
@@ -54,7 +54,7 @@ html[xmlns] .clearfix {
 }
 
 .head-txt{
-	color: #FFFFFF;
+	color: #314F49;
 	font-family: Lato ,Helvetica, sans serif;
 	font-size: 3.5em;
 	margin:30% 0 10% 10%;
@@ -65,7 +65,7 @@ html[xmlns] .clearfix {
 }
 
 .links li{
-	color: #FFFFFF;
+	color: #314F49;
 	font-family: Lato, Helvetica, sans serif;
 	font-size: 2em;
 	font-weight: 300;
@@ -88,7 +88,7 @@ html[xmlns] .clearfix {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FFFFFF;
+  background-color: #314F49;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -97,7 +97,7 @@ html[xmlns] .clearfix {
 }
 
 .links li a:hover{
-	color: #FFFFFF;
+	color: #314F49;
 }
 
 .links li a:hover:before{
@@ -111,6 +111,6 @@ html[xmlns] .clearfix {
 }
 
 .links li a:visited{
-	color: #FFFFFF;
+	color: #314F49;
 	text-decoration: none;
 }
