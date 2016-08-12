@@ -14,13 +14,25 @@ body{
 	overflow: hidden;
 }
 
+.home-img{
+  display: block;
+  margin: 70px auto;
+  width: 50%;
+  border: 2px solid #3F665F;
+  background: #3f665f;
+}
+
+@media screen and (max-width: 780px){
+  .home-img{
+    width: 100%;
+    margin: 0;
+  }
+}
+
 .home-img img{
-	display:inline-block;
-	float: left;
-	width:55%;
-	position: relative;
-	max-width: 100%;
-	max-height:100%;
+  display: block;
+  width: 100%;
+  padding: 60px;
 }
 
 .clearfix:after {
@@ -45,7 +57,7 @@ html[xmlns] .clearfix {
 }
 
 .side-nav{
-	display:inline-block;
+	display:none;
 	background: #FFFFFF;
 	position:relative;
 	overflow: hidden;
@@ -54,18 +66,22 @@ html[xmlns] .clearfix {
 }
 
 .head-txt{
-	color: #314F49;
+	color: #fff;
 	font-family: Lato ,Helvetica, sans serif;
 	font-size: 3.5em;
-	margin:30% 0 10% 10%;
+	margin: 20px auto;
 	text-align: center;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
+.links{
+  padding: 0 0 30px;
+}
+
 .links li{
-	color: #314F49;
+	color: #fff;
 	font-family: Lato, Helvetica, sans serif;
 	font-size: 2em;
 	font-weight: 300;
@@ -79,6 +95,7 @@ html[xmlns] .clearfix {
 .links li a{
 	text-decoration: none;
 	position: relative;
+  color: #fff;
 }
 
 .links li a:before{
@@ -88,7 +105,7 @@ html[xmlns] .clearfix {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #314F49;
+  background-color: #fff;;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -97,7 +114,7 @@ html[xmlns] .clearfix {
 }
 
 .links li a:hover{
-	color: #314F49;
+	color: #fff;
 }
 
 .links li a:hover:before{
@@ -107,10 +124,10 @@ html[xmlns] .clearfix {
 }
 
 .links li a:hover:after {
-	
+
 }
 
 .links li a:visited{
-	color: #314F49;
+	color: #fff;
 	text-decoration: none;
 }
