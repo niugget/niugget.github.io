@@ -35,6 +35,18 @@ body{
   padding: 60px;
 }
 
+@media screen and (max-width: 425px){
+  .home-img img{
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .home-img img{
+    padding: 30px;
+  }
+}
+
 .clearfix:after {
     clear: both;
     content: ".";
@@ -56,15 +68,6 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
-.side-nav{
-	display:none;
-	background: #FFFFFF;
-	position:relative;
-	overflow: hidden;
-	width: 45%;
-	height: 100vh;
-}
-
 .head-txt{
 	color: #fff;
 	font-family: Lato ,Helvetica, sans serif;
@@ -74,6 +77,16 @@ html[xmlns] .clearfix {
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 425px){
+  .head-txt{
+    font-size: 2em;
+    margin: 0 auto;
+  }
+  .links li{
+    font-size: 1.5em;
+  }
 }
 
 .links{
@@ -93,7 +106,6 @@ html[xmlns] .clearfix {
 }
 
 .links li a{
-	color: #314F49;
 	text-decoration: none;
 	position: relative;
   color: #fff;
